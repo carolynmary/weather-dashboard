@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row">
+
+            <!-- Search field and history links -->
+            <aside class="col-sm-4">
+                <!-- search  -->
+                <div id="search">
+                    <!-- Search Input and Button-->
+                    <label>Search for a City:</label>
+                    <div class="input-group mb-3">
+                        <!-- Input -->
+                        <input id="searchInput" type="text" class="form-control">
+                        <!-- Button -->
+                        <div id="searchBtn" class="input-group-append">
+                            <button type="button" class="btn btn-outline-primary">
+                                <svg id="magGlass" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z">
+                                    </path>
+                                    <path fill-rule="evenodd"
+                                        d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- history list -->
+                <a id="clearHistory" style="margin-bottom: 7px;" href="">clear history</a>
+                <div id="history">
+                </div>
+            </aside>
+
+            <!-- Weather display (current and forecast) -->
+            <div class="col-sm-8">
+                <!-- current weather -->
+                <section id="currentContainer" class="card mb-3">
+                    <div class="row no-gutters">
+                        <!-- city Photo -->
+                        <div class="col-md-3">
+                            <img id="cityImg" src="Assets/placeholder-image.png" class="card-img" alt="local photo">
+                        </div>
+                        <!-- current weather data -->
+                        <div class="col-md-9">
+                            <div class="card-body">
+                                <h5 class="card-title">City Name (9/12/20)</h5>
+                                <p class="card-text">Temperature: </p>
+                                <p class="card-text">Humidity: </p>
+                                <p class="card-text">Wind Speed: </p>
+                                <p class="card-text">UV Index: </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 5 day forecast -->
+                <section id="forecastContainer" class="card mb-3">
+                    <label for="basic-url">5-Day Forecast:</label>
+                    <div class="row no-gutters">
+                        <div id="forecast" class="card">
+                            <h6 class="card-title">9/13/20</h6>
+                            <p class="card-subtitle mb-2 text-muted">(icon here)</p>
+                            <p class="card-text">Temp: </p>
+                            <p class="card-text">Humidity: </p>
+                        </div>
+                        <div id="forecast" class="card">
+                            <h6 class="card-title">9/13/20</h6>
+                            <p class="card-subtitle mb-2 text-muted">(icon here)</p>
+                            <p class="card-text">Temp: </p>
+                            <p class="card-text">Humidity: </p>
+                        </div>
+                        <div id="forecast" class="card">
+                            <h6 class="card-title">9/13/20</h6>
+                            <p class="card-subtitle mb-2 text-muted">(icon here)</p>
+                            <p class="card-text">Temp: </p>
+                            <p class="card-text">Humidity: </p>
+                        </div>
+                        <div id="forecast" class="card">
+                            <h6 class="card-title">9/13/20</h6>
+                            <p class="card-subtitle mb-2 text-muted">(icon here)</p>
+                            <p class="card-text">Temp: </p>
+                            <p class="card-text">Humidity: </p>
+                        </div>
+                        <div id="forecast" class="card">
+                            <h6 class="card-title">9/13/20</h6>
+                            <p class="card-subtitle mb-2 text-muted">(icon here)</p>
+                            <p class="card-text">Temp: </p>
+                            <p class="card-text">Humidity: </p>
+                        </div>
+                    </div>
+                </section>
+
+
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+
+
+
+
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
