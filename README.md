@@ -25,3 +25,8 @@ https://github.com/carolynstolze/weather-dashboard
 - index.html: skeleton setup
 - style.css: styling created
 - script.js: working search field and history list buttons
+
+## commit 3
+- index.html: 
+- script.js: working functions:
+    - city name to id
