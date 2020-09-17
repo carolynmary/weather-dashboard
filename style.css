@@ -100,7 +100,7 @@ a:hover {
 }
 
 #forecastContainer {
-    justify-content: space-between;
+    /* justify-items: center; */
     color: #2c374e;
     font-size: 20px;
     font-weight: 500;
@@ -108,7 +108,7 @@ a:hover {
 #forecast {
     background-color: #02baf7;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     padding: 10px;
     width: 18%;
 }
