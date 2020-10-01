@@ -28,12 +28,12 @@
                 <div id="search">
                     <!-- Search Input and Button-->
                     <label>Search for a City:</label>
-                    <div class="input-group mb-3">
+                    <form class="input-group mb-3">
                         <!-- Input -->
                         <input id="searchInput" type="text" class="form-control">
                         <!-- Button -->
                         <div id="searchBtn" class="input-group-append">
-                            <button type="button" class="btn btn-outline-primary">
+                            <button type="submit" class="btn btn-outline-primary">
                                 <svg id="magGlass" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search"
                                     fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd"
@@ -45,7 +45,7 @@
                                 </svg>
                             </button>
                         </div>
-                    </div>
+                    </form>
                 </div>
                 <!-- history list -->
                 <a id="clearHistory" style="margin-bottom: 7px;" href="">clear history</a>
@@ -65,13 +65,14 @@
                         <!-- current weather data -->
                         <div class="col-md-9">
                             <div class="card-body">
-                                <h5 id="currentCity" class="card-title">----</h5>
-                                <h5 id="currentDate" class="card-title" style="display: inline;"></h5>
-                                <div id="currentIcon" class="card-title" style="display: inline;"></div>
-                                <p id="currentTemp"class="card-text">Temperature: </p>
-                                <p id="currentHum"class="card-text">Humidity: </p>
-                                <p id="currentWind"class="card-text">Wind Speed: </p>
-                                <p id="currentUV"class="card-text">UV Index: </p>
+                                <h5 id="currentCity" class="d-inline card-title">----</h5>
+                                <h5 id="currentDate" class="d-inline card-title">----</h5>
+                                <h5 id="currentIcon"class="d-inline">----</h5>
+                                <p id="currentTemp" class="card-text">Temperature: --</p>
+                                <p id="currentHum" class="card-text">Humidity: --</p>
+                                <p id="currentWind" class="card-text">Wind Speed: --</p>
+                                <p class="d-inline card-text">UV Index: </p>
+                                <p id="currentUV" class="d-inline card-text">--</p>
                             </div>
                         </div>
                     </div>
@@ -132,6 +133,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <!-- Javascript -->
     <script src="script.js"></script>
+    <!-- Moment.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 </body>
 
 </html>

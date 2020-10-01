@@ -91,6 +91,31 @@ a:hover {
     margin-top: 20px;
 }
 
+/* UV Index condition levels */
+#currentUV {
+    padding: 6px;
+    border-radius: 4px;
+}
+.low {
+    background-color: green;
+    color: white;
+}
+.moderate {
+    background-color: yellow;
+}
+.high {
+    background-color: orange;
+    color: white;
+}
+.very-high {
+    background-color: red;
+    color: white;
+}
+.extreme {
+    background-color: purple;
+    color: white;
+}
+
 /* City Image */
 #cityImg {
     min-width: 100%;

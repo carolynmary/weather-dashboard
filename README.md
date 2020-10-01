@@ -30,3 +30,6 @@ https://github.com/carolynstolze/weather-dashboard
 - index.html: 
 - script.js: working functions:
     - city name to id
+
+## commit 4
+- working current weather forecast
