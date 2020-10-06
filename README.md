@@ -1,7 +1,7 @@
 # weather-dashboard
 
 LIVE SITE:
-https://carolynstolze.github.io/weather-dashboard.github.io/
+https://carolynstolze.github.io/weather-dashboard/
 
 GITHUB REPOSITORY:
 https://github.com/carolynstolze/weather-dashboard

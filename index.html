@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet">
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
     <title>Weather Dashboard</title>
 </head>
 
@@ -23,7 +23,7 @@
         <div class="row">
 
             <!-- Search field and history links -->
-            <aside class="col-sm-4">
+            <aside class="col-sm-3">
                 <!-- search  -->
                 <div id="search">
                     <!-- Search Input and Button-->
@@ -54,20 +54,20 @@
             </aside>
 
             <!-- Weather display (current and forecast) -->
-            <div class="col-sm-8">
+            <div class="col-sm-9">
                 <!-- current weather -->
                 <section id="currentContainer" class="card mb-3">
                     <div class="row no-gutters">
                         <!-- city Photo -->
-                        <div class="col-md-3">
-                            <img id="cityImg" src="Assets/placeholder-image.png" class="card-img" alt="local photo">
+                        <div class="col-md-4">
+                            <img id="cityImg" src="Assets/images/placeholder-image.png" class="card-img" alt="local photo">
                         </div>
                         <!-- current weather data -->
-                        <div class="col-md-9">
+                        <div class="col-md-8">
                             <div class="card-body">
-                                <h5 id="currentCity" class="d-inline card-title">----</h5>
+                                <h3 id="currentCity" class="d-inline card-title">----</h3>
                                 <h5 id="currentDate" class="d-inline card-title">----</h5>
-                                <h5 id="currentIcon"class="d-inline">----</h5>
+                                <h5 id="currentIcon" class="d-inline">----</h5>
                                 <p id="currentTemp" class="card-text">Temperature: --</p>
                                 <p id="currentHum" class="card-text">Humidity: --</p>
                                 <p id="currentWind" class="card-text">Wind Speed: --</p>
@@ -82,57 +82,53 @@
                 <section id="forecastContainer" class="card mb-3">
                     <label for="basic-url">5-Day Forecast:</label>
                     <div class="row no-gutters">
-                        <div id="forecast" class="card">
-                            <h6 class="card-title">9/13/20</h6>
-                            <p class="card-subtitle mb-2 text-muted">(icon here)</p>
-                            <p class="card-text">Temp: </p>
-                            <p class="card-text">Humidity: </p>
+                        <div class="card col-md forecast">
+                            <h5 id="plus1-date" class="card-title">----</h5>
+                            <p id="plus1-icon"></p>
+                            <p id="plus1-temp" class="card-text">Temp: --</p>
+                            <p id="plus1-hum" class="card-text">Hum: --</p>
                         </div>
-                        <div id="forecast" class="card">
-                            <h6 class="card-title">9/13/20</h6>
-                            <p class="card-subtitle mb-2 text-muted">(icon here)</p>
-                            <p class="card-text">Temp: </p>
-                            <p class="card-text">Humidity: </p>
+                        <div class="card col-md forecast">
+                            <h5 id="plus2-date" class="card-title">----</h5>
+                            <p id="plus2-icon"></p>
+                            <p id="plus2-temp" class="card-text">Temp: --</p>
+                            <p id="plus2-hum" class="card-text">Hum: --</p>
                         </div>
-                        <div id="forecast" class="card">
-                            <h6 class="card-title">9/13/20</h6>
-                            <p class="card-subtitle mb-2 text-muted">(icon here)</p>
-                            <p class="card-text">Temp: </p>
-                            <p class="card-text">Humidity: </p>
+                        <div class="card col-md forecast">
+                            <h5 id="plus3-date" class="card-title">----</h5>
+                            <p id="plus3-icon"></p>
+                            <p id="plus3-temp" class="card-text">Temp: --</p>
+                            <p id="plus3-hum" class="card-text">Hum: --</p>
                         </div>
-                        <div id="forecast" class="card">
-                            <h6 class="card-title">9/13/20</h6>
-                            <p class="card-subtitle mb-2 text-muted">(icon here)</p>
-                            <p class="card-text">Temp: </p>
-                            <p class="card-text">Humidity: </p>
+                        <div class="card col-md forecast">
+                            <h5 id="plus4-date" class="card-title">----</h5>
+                            <p id="plus4-icon"></p>
+                            <p id="plus4-temp" class="card-text">Temp: --</p>
+                            <p id="plus4-hum" class="card-text">Hum: --</p>
                         </div>
-                        <div id="forecast" class="card">
-                            <h6 class="card-title">9/13/20</h6>
-                            <p class="card-subtitle mb-2 text-muted">(icon here)</p>
-                            <p class="card-text">Temp: </p>
-                            <p class="card-text">Humidity: </p>
+                        <div class="card col-md forecast">
+                            <h5 id="plus5-date" class="card-title">----</h5>
+                            <p id="plus5-icon"></p>
+                            <p id="plus5-temp" class="card-text">Temp: --</p>
+                            <p id="plus5-hum" class="card-text">Hum: --</p>
                         </div>
                     </div>
                 </section>
-
-
             </div>
-
         </div>
-
-
-
     </main>
-
-
-
-
-
 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <!-- Javascript -->
-    <script src="script.js"></script>
+    <!-- Javascripts -->
+    <script src="./Assets/js/cityPhoto.js"></script>
+    <script src="./Assets/js/clearHistoryList.js"></script>
+    <script src="./Assets/js/createHistoryList.js"></script>
+    <script src="./Assets/js/getCurrentWeather.js"></script>
+    <script src="./Assets/js/getForecast.js"></script>
+    <script src="./Assets/js/historyButtonClick.js"></script>
+    <script src="./Assets/js/saveToLocalStorage.js"></script>
+    <script src="./Assets/js/searchField.js"></script>
     <!-- Moment.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 </body>
