@@ -2,14 +2,16 @@
 
 # Weather Dashboard 
 
-![HTML](https://img.shields.io/badge/HTML-red) ![CSS](https://img.shields.io/badge/CSS-darkblue) ![JavaScript](https://img.shields.io/badge/JavaScript-purple) ![jQuery](https://img.shields.io/badge/jQuery-blue)
+![HTML](https://img.shields.io/badge/HTML-red) ![CSS](https://img.shields.io/badge/CSS-blue) ![JavaScript](https://img.shields.io/badge/JavaScript-purple) </br>
 [carolynmary.github.io/weather-dashboard](https://carolynmary.github.io/weather-dashboard/)
 
 - - -
+- - -
 #### A weather dashboard to get current weather with a 5–day forecast in multiple cities so you can plan your travels accordingly. Includes temperature, humidity, wind speed and uv index.
 - - -
+- - -
 
-[How to Use](#how-to-use) // [Credits](#credits) // [Questions & Feedback](#questions-&-feedback) // [License](#license)
+[How to Use](#how-to-use) // [Credits](#credits) // [Questions & Feedback](#questions-feedback) // [License](#license)
 
 ## How to Use 
 
@@ -34,6 +36,8 @@ Have a question or feedback? Send me a note or just say hi. I'd be happy to hear
 ## License
 
 The code is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
-
+</br>
+</br>
+</br>
 ![header](Assets/images/cm_footer.svg)
-<small>© 2020 Carolyn Mary Stolze</small>
+© 2020 Carolyn Mary Stolze
