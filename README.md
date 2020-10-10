@@ -1,4 +1,3 @@
-<!-- ![header](Assets/images/cm_header.svg) -->
 ![header](Assets/images/cm_header.png)
 
 # Weather Dashboard 
@@ -30,7 +29,7 @@ Input any city (national or internation) in the search field to get information.
 
 Have a question or feedback? Send me a note or just say hi. I'd be happy to hear from you!
 
-> "Knowledge is having the right answer. Intelligence is asking the right question.” <small>~ Unknown </small>
+> “Knowledge is having the right answer. Intelligence is asking the right question.” ~ Unknown
 
 <a href="mailto:carolyn@carolynmary.com">carolyn@carolynmary.com</a> // <a href="https://github.com/carolynmary"> github.com/carolynmary</a>
 
