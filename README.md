@@ -2,7 +2,7 @@
 
 # Weather Dashboard 
 
-![HTML](https://img.shields.io/badge/HTML-red) ![CSS](https://img.shields.io/badge/CSS-blue) ![JavaScript](https://img.shields.io/badge/JavaScript-purple) </br>
+![HTML](https://img.shields.io/badge/HTML-red) ![CSS](https://img.shields.io/badge/CSS-purple) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow) </br>
 [carolynmary.github.io/weather-dashboard](https://carolynmary.github.io/weather-dashboard/)
 
 - - -
