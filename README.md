@@ -7,7 +7,7 @@
 
 - - -
 - - -
-#### A weather dashboard to get current weather with a 5–day forecast in multiple cities so you can plan your travels accordingly. Includes temperature, humidity, wind speed and uv index.
+### A weather dashboard to get current weather with a 5–day forecast in multiple cities so you can plan your travels accordingly. Includes temperature, humidity, wind speed and uv index.
 - - -
 - - -
 
