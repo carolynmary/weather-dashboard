@@ -85,6 +85,10 @@ a:hover {
 #history button:active {
     color: #2c374e;
 }
+.first-btn {
+    background-color: #dddddd !important;
+    color: #2c374e !important;
+}
 
 /* currentContainer */
 #currentContainer {

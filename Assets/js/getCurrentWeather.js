@@ -38,7 +38,7 @@ $(document).ready(function () {
       };
       getCurrentUVindex(); // run here to display last saved search on page load
     });
-    getCityPhoto();
+    // getCityPhoto();
   };
   getCurrentWeather(); // run here to display last saved search on page load
 });
