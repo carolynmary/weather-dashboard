@@ -2,7 +2,7 @@
 
 # Weather Dashboard 
 
-![HTML](https://img.shields.io/badge/HTML-red) ![CSS](https://img.shields.io/badge/CSS-darkblue) ![JavaScript](https://img.shields.io/badge/JavaScript-purple) ![jQuery](https://img.shields.io/badge/jQuery-blue)
+![HTML](https://img.shields.io/badge/HTML-red) ![CSS](https://img.shields.io/badge/CSS-darkblue) ![JavaScript](https://img.shields.io/badge/JavaScript-purple) ![jQuery](https://img.shields.io/badge/jQuery-blue) </br>
 [carolynmary.github.io/weather-dashboard](https://carolynmary.github.io/weather-dashboard/)
 
 - - -
@@ -36,4 +36,4 @@ Have a question or feedback? Send me a note or just say hi. I'd be happy to hear
 The code is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
 ![header](Assets/images/cm_footer.svg)
-<small>© 2020 Carolyn Mary Stolze</small>
+© 2020 Carolyn Mary Stolze
