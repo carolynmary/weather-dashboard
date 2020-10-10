@@ -1,8 +1,9 @@
-![header](Assets/images/cm_header.svg)
+<!-- ![header](Assets/images/cm_header.svg) -->
+![header](Assets/images/cm_header.png)
 
 # Weather Dashboard 
 
-![HTML](https://img.shields.io/badge/HTML-red) ![CSS](https://img.shields.io/badge/CSS-purple) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow) </br>
+![HTML](https://img.shields.io/badge/HTML-red) ![CSS](https://img.shields.io/badge/CSS-purple) ![JavaScript](https://img.shields.io/badge/JavaScript-yello) </br>
 [carolynmary.github.io/weather-dashboard](https://carolynmary.github.io/weather-dashboard/)
 
 - - -
@@ -39,5 +40,5 @@ The code is licensed under the [MIT License](https://choosealicense.com/licenses
 </br>
 </br>
 </br>
-![header](Assets/images/cm_footer.svg)
+![header](Assets/images/cm_footer.png)
 © 2020 Carolyn Mary Stolze
