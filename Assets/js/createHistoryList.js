@@ -11,9 +11,7 @@ $(document).ready(function () {
             addBtn.attr("type", "button");
             addBtn.text(historyList[i]); // Providing the button's text with city name at index i
             addBtn.on("click", function () {
-                console.log("i'm working");
                 let buttonText = $(this).text(); // store text/city of button clicked
-                console.log(buttonText);
                 let newArray = []; // to hold new array without duplicates
                 historyList.unshift(buttonText); // adds buttonText to beginning of historyList array
                 historyList.forEach(function (buttonText) {
@@ -26,12 +24,9 @@ $(document).ready(function () {
                 createHistoryList(); // updates history list and buttons
                 getCurrentWeather();
                 getForecast();
-                // location.reload
             });
             $("#history").append(addBtn);
         };
     };
     createHistoryList(); // run here to display on page load
 });
-
-// button click works on search button, how to remove?
