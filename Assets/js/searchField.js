@@ -23,6 +23,6 @@ $(document).ready(function () {
   });
 });
 
-// button click works on search button, how to remove?
+// how to make search button not add a blank input value to array
 // why did the dropdown list in search stop saving? 
 // html: how to make grey background less high on mobile

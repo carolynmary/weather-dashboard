@@ -1,4 +1,4 @@
-var getCurrentWeather; // to access in other scripts (?)
+var getCurrentWeather;
 
 $(document).ready(function () {
   // get weather from the first element in the history list (userSearch pushed to first element on click)
@@ -26,21 +26,17 @@ $(document).ready(function () {
           url: uvQueryURL,
           method: "GET"
         }).then(function (response) {
-          // console.log(response);
-          // assigns color indicator
-          if (response.value >= 0 && response.value < 3) { $("#currentUV").addClass("low"); } // if low level
-          if (response.value >= 3 && response.value < 6) { $("#currentUV").addClass("moderate"); } // if moderate level
-          if (response.value >= 6 && response.value < 8) { $("#currentUV").addClass("high"); } // if high level
-          if (response.value >= 8 && response.value < 11) { $("#currentUV").addClass("very-high"); } // if very-high level
-          if (response.value >= 11) { $("#currentUV").addClass("extreme"); } // if extreme level
           $("#currentUV").append().text(response.value);
+          // assigns color indicator
+          if (response.value >= 0 && response.value < 3) { $("#currentUV").removeClass("moderate high very-high extreme").addClass("low"); } // if low level
+          if (response.value >= 3 && response.value < 6) { $("#currentUV").removeClass("low high very-high extreme").addClass("moderate"); } // if moderate level
+          if (response.value >= 6 && response.value < 8) { $("#currentUV").removeClass("low moderate very-high extreme").addClass("high"); } // if high level
+          if (response.value >= 8 && response.value < 11) { $("#currentUV").removeClass("low moderate high extreme").addClass("very-high"); } // if very-high level
+          if (response.value >= 11) { $("#currentUV").removeClass("low moderate high very-high").addClass("extreme"); } // if extreme level
         });
       };
-      getCurrentUVindex(); // run here to display last saved search on page loadxw
+      getCurrentUVindex(); // run here to display last saved search on page load
     });
-    // getCityPhoto();
   };
   getCurrentWeather(); // run here to display last saved search on page load
 });
-
-// fix - UV Index colors not updating again on button clicks. Works for Extreme level for some reason
