@@ -24,7 +24,4 @@ $(document).ready(function () {
 });
 
 // why did the dropdown list in search stop saving? 
-
-// var usersSearch = $("#searchInput").val().trim();
-
 // html: how to make grey background less high on mobile

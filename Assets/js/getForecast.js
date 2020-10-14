@@ -1,5 +1,3 @@
-//  How to simplify code (loop) but have buckets show black by default?? -------------------------
-
 var getForecast; // to access in other scripts (?)
 
 $(document).ready(function () {
@@ -49,3 +47,5 @@ $(document).ready(function () {
   };
   getForecast(); // run here to display last searched city on page load
 });
+
+//  How to simplify code (loop) but have buckets show black by default?? -------------------------

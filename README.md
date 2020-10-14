@@ -21,9 +21,13 @@ Input any city (national or internation) in the search field to get information.
 
 ## Credits
 
-[Open Weather](http://api.openweathermap.org) // weather API </br>
-[Shutterstock](https://www.shutterstock.com/developers/) // Image API </br>
-[Unsplash](https://unsplash.com/developers) // Image API
+[Open Weather](http://api.openweathermap.org) // Weather API </br>
+<!-- [Shutterstock](https://www.shutterstock.com/developers/) // Image API </br>
+[Unsplash](https://unsplash.com/developers) // Image API -->
+
+## License
+
+The code is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
 ## Questions & Feedback
 
@@ -31,13 +35,9 @@ Have a question or feedback? Send me a note or just say hi. I'd be happy to hear
 
 > “Knowledge is having the right answer. Intelligence is asking the right question.” ~ Unknown
 
-<a href="mailto:carolyn@carolynmary.com">carolyn@carolynmary.com</a> // <a href="https://github.com/carolynmary"> github.com/carolynmary</a>
+Email: carolyn@carolynmary.com </br>
+GitHub: [carolynmary](https://github.com/carolynmary) </br>
+Porfolio: carolynmary.com
 
-## License
-
-The code is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
-</br>
-</br>
-</br>
 ![header](Assets/images/cm_footer.png)
 © 2020 Carolyn Mary Stolze
