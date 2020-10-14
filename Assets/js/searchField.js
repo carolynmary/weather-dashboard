@@ -23,5 +23,6 @@ $(document).ready(function () {
   });
 });
 
+// button click works on search button, how to remove?
 // why did the dropdown list in search stop saving? 
 // html: how to make grey background less high on mobile

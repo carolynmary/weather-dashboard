@@ -10,26 +10,23 @@ $(document).ready(function () {
             addBtn.addClass("btn btn-primary btn-lg btn-block");
             addBtn.attr("type", "button");
             addBtn.text(historyList[i]); // Providing the button's text with city name at index i
-            addBtn.on("click", function () {
-                let buttonText = $(this).text(); // store text/city of button clicked
-                let newArray = []; // to hold new array without duplicates
-                historyList.unshift(buttonText); // adds buttonText to beginning of historyList array
-                historyList.forEach(function (buttonText) {
-                    if (!newArray.includes(buttonText)) { //  if (buttonText is NOT included in a NEW array)
-                        newArray.push(buttonText); // add to a NEW array
-                        historyList = newArray // assign new local array as global history array
-                    }
-                });
-                saveToLocalStorage();
-                createHistoryList(); // updates history list and buttons
-                getCurrentWeather();
-                getForecast();
-            });
             $("#history").append(addBtn);
         };
+        $("#history button").on("click", function () {
+            let buttonText = $(this).text(); // store text/city of button clicked
+            let newArray = []; // to hold new array without duplicates
+            historyList.unshift(buttonText); // adds buttonText to beginning of historyList array
+            historyList.forEach(function (buttonText) {
+                if (!newArray.includes(buttonText)) { //  if (buttonText is NOT included in a NEW array)
+                    newArray.push(buttonText); // add to a NEW array
+                    historyList = newArray // assign new local array as global history array
+                }
+            });
+            saveToLocalStorage();
+            createHistoryList(); // updates history list and buttons
+            getCurrentWeather();
+            getForecast();
+        });
     };
     createHistoryList(); // run here to display on page load
 });
-
-// button click works on search button, how to remove?
-// fix UV Index colors not updating again on button click

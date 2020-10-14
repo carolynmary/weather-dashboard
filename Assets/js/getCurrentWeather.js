@@ -27,18 +27,20 @@ $(document).ready(function () {
           method: "GET"
         }).then(function (response) {
           // console.log(response);
-          $("#currentUV").append().text(response.value);
           // assigns color indicator
           if (response.value >= 0 && response.value < 3) { $("#currentUV").addClass("low"); } // if low level
           if (response.value >= 3 && response.value < 6) { $("#currentUV").addClass("moderate"); } // if moderate level
           if (response.value >= 6 && response.value < 8) { $("#currentUV").addClass("high"); } // if high level
           if (response.value >= 8 && response.value < 11) { $("#currentUV").addClass("very-high"); } // if very-high level
           if (response.value >= 11) { $("#currentUV").addClass("extreme"); } // if extreme level
+          $("#currentUV").append().text(response.value);
         });
       };
-      getCurrentUVindex(); // run here to display last saved search on page load
+      getCurrentUVindex(); // run here to display last saved search on page loadxw
     });
     // getCityPhoto();
   };
   getCurrentWeather(); // run here to display last saved search on page load
 });
+
+// fix - UV Index colors not updating again on button clicks. Works for Extreme level for some reason
