@@ -2,7 +2,7 @@ var getForecast; // to access in other scripts (?)
 
 $(document).ready(function () {
   getForecast = function getForecast() {
-    var queryURL = "http://api.openweathermap.org/data/2.5/forecast?q=" + historyList[0] + "&units=imperial" + apiKey;
+    var queryURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + historyList[0] + "&units=imperial" + apiKey;
     $.ajax({
       url: queryURL,
       method: "GET"

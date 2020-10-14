@@ -3,7 +3,7 @@ var getCurrentWeather;
 $(document).ready(function () {
   // get weather from the first element in the history list (userSearch pushed to first element on click)
   getCurrentWeather = function getCurrentWeather() {
-    var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + historyList[0] + "&units=imperial" + apiKey;
+    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + historyList[0] + "&units=imperial" + apiKey;
     $.ajax({
       url: queryURL,
       method: "GET"
@@ -21,7 +21,7 @@ $(document).ready(function () {
       $("#currentWind").append().text("Wind Speed: " + response.wind.speed.toFixed(1) + " MPH"); // get wind and display
       // GET uv index
       function getCurrentUVindex() {
-        var uvQueryURL = "http://api.openweathermap.org/data/2.5/uvi?lat=" + lat + "&lon=" + lon + apiKey;
+        var uvQueryURL = "https://api.openweathermap.org/data/2.5/uvi?lat=" + lat + "&lon=" + lon + apiKey;
         $.ajax({
           url: uvQueryURL,
           method: "GET"
