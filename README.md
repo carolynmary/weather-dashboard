@@ -1,8 +1,9 @@
 ![header](Assets/images/cm_header.png)
 
-# Weather Dashboard 
+<!-- Badges -->
+![HTML](https://img.shields.io/badge/HTML-red) ![CSS](https://img.shields.io/badge/CSS-purple) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow) </br>
 
-![HTML](https://img.shields.io/badge/HTML-red) ![CSS](https://img.shields.io/badge/CSS-purple) ![JavaScript](https://img.shields.io/badge/JavaScript-yello) </br>
+# Weather Dashboard 
 [carolynmary.github.io/weather-dashboard](https://carolynmary.github.io/weather-dashboard/)
 
 - - -
@@ -11,7 +12,7 @@
 - - -
 - - -
 
-[How to Use](#how-to-use) // [Credits](#credits) // [Questions & Feedback](#questions-feedback) // [License](#license)
+[How to Use](#how-to-use) // [Credits](#credits) // [License](#license) // [Questions & Feedback](#questions-feedback)
 
 ## How to Use 
 
